@@ -1,9 +1,8 @@
-import { NavBar } from "@/componant";
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline bg-red-50">
-      <NavBar/>
-    </h1>
-  )
+    <div className="bg-blue-500 text-white p-4 text-center">
+      Hello Tailwind CSS with Next.js!
+    </div>
+  );
 }
